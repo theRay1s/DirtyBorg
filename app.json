@@ -1,7 +1,7 @@
 {
-  "name": "ZenBot",
-  "description": "Power of AI  By : @ArcherTanu",
-  "logo": "https://telegra.ph/file/imglink.jpg",
+  "name": "DirtyBorg",
+  "description": "Only For Legends..... By : @theRay1",
+  "logo": "https://telegra.ph/file/5cad14dd87b45cdf3872b.jpg",
   "keywords": [
     "sex",
     "porn",
@@ -10,9 +10,9 @@
     "vagina",
     "boobs"
   ],
-  "repository": "https://gitlab.com/archer/ZenBot",
+  "repository": "https://github.com/theRay1s/DirtyBorg",
   "website": "https://telegram.dog/UniBorg",
-  "success_url": "https://telegram.dog/archernap",
+  "success_url": "https://telegram.dog/theRay1",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable environment variables.",
