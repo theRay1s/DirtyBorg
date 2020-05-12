@@ -1,10 +1,20 @@
-#Warning: Use this repo at your own risk
+# This is DirtyExtended Uniborg
 
-#click the photo below to deploy
+## installing
 
-#this is DirtyExtended Uniborg
+#### The Easy Way
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-
-[Contact Me on Telegram Here](https://telegram.dog/ArcherNap)
+## [Contact Me On Telegram Here](https://telegram.dog/theRay1)
+#### The Legacy Way
+Simply clone the repository and run the main file:
+```sh
+git clone https://github.com/udf/uniborg.git
+cd uniborg
+virtualenv -p /usr/bin/python3 venv
+. ./venv/bin/activate
+pip install -r requirements.txt
+# <Create config.py with variables as given below>
+python3 -m stdborg YourSessionName
+```
