@@ -1,7 +1,7 @@
 """Fetch App Details from Playstore.
 .app <app_name> to fetch app details.
 .appr <app_name>  to fetch app details with Xploiter request link.
-  © [@Archer](http://t.me/archernap)"""
+  © [Rehan](http://t.me/theRay1)"""
 import requests
 import bs4 
 import re
@@ -30,7 +30,7 @@ async def apk(e):
         app_details += "\n\n<code>Developer :</code> <a href='"+app_dev_link+"'>"+app_dev+"</a>"
         app_details += "\n<code>Rating :</code> "+app_rating.replace("Rated ", "⭐ ").replace(" out of ", "/").replace(" stars", "", 1).replace(" stars", "⭐ ").replace("five", "5")
         app_details += "\n<code>Features :</code> <a href='"+app_link+"'>View in Play Store</a>"
-        app_details += "\n\n===> @Archer <==="
+        app_details += "\n\n===> @theRay1 <==="
         await e.edit(app_details, link_preview = True, parse_mode = 'HTML')
     except IndexError:
         await e.edit("No result found in search. Please enter **Valid app name**")
@@ -59,7 +59,7 @@ async def apkr(e):
         app_details += "\n<code>Rating :</code> "+app_rating.replace("Rated ", "⭐ ").replace(" out of ", "/").replace(" stars", "", 1).replace(" stars", "⭐ ").replace("five", "5")
         app_details += "\n<code>Features :</code> <a href='"+app_link+"'>View in Play Store</a>"
         app_details += "\n\n<b>Download : </b> <a href=''>Request_Here</a>"
-        app_details += "\n\n===> @ZenBot <==="
+        app_details += "\n\n===> @DirtyBorg <==="
         await e.edit(app_details, link_preview = True, parse_mode = 'HTML')
     except IndexError:
         await e.edit("No result found in search. Please enter **Valid app name**")
